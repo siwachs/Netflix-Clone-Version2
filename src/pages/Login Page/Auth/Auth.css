@@ -1,0 +1,104 @@
+.auth {
+  max-width: 40%;
+  padding: 60px;
+  margin: 2% auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 8%;
+}
+
+.auth h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form > input {
+  margin: 0;
+  margin-bottom: 2rem;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 10px 0;
+  font-size: 16px;
+  height: 50px;
+}
+
+.login_form > button {
+  flex: 1;
+  color: #fff;
+  background: rgb(229, 9, 20);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 580;
+  margin: 24px 0 12px;
+  cursor: pointer;
+  padding: 16px;
+  min-width: 98px;
+  min-height: 37px;
+  letter-spacing: 0.1px;
+}
+
+.login_form > button:hover {
+  background: #f40612;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.newToNetflix {
+  display: flex;
+}
+
+.newToNetflix > #ntfOne {
+  color: #737373;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.newToNetflix > #ntftwo {
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.newToNetflix > #ntftwo:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  /*Landscape Tablets and small Laptops*/
+  /*768 Start and end on 992px*/
+  .auth {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  /*600px to 768px Portrait Tablets and Large Phones*/
+}
+
+@media (max-width: 600px) {
+  /*0 to 600px Small Mobiles*/
+  .auth {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .newToNetflix > #ntfOne {
+    font-size: 0.9rem;
+  }
+
+  .newToNetflix > #ntftwo {
+    font-size: 0.9rem;
+  }
+}

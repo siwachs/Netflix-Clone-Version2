@@ -1,0 +1,134 @@
+.profileScreen {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+}
+
+.profileInfo img {
+  max-height: 8rem;
+  object-fit: contain;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+
+.meta h3 {
+  font-size: 1.3rem;
+}
+
+.selectedPlan {
+  background-color: gray;
+  border-radius: 4px;
+}
+
+.sign_out {
+  border: none;
+  text-transform: uppercase;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  background-color: #e50914;
+  border-radius: 6px;
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 992px) {
+  /*Landscape Tablets and small Laptops*/
+  /*768 Start and end on 992px*/
+}
+
+@media (max-width: 740px) {
+  /*600px to 768px Portrait Tablets and Large Phones*/
+  .profileScreen {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 640px) {
+  /*0 to 600px Small Mobiles*/
+  .profileScreen {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .profileScreen {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 495px) {
+  .profile h1 {
+    font-size: 1.4rem;
+  }
+
+  .profileInfo img {
+    max-height: 6rem;
+  }
+
+  .meta h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 408px) {
+  .profile h1 {
+    font-size: 1.1rem;
+  }
+
+  .profileInfo img {
+    max-height: 4rem;
+  }
+
+  .meta h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 342px) {
+  .profile h1 {
+    font-size: 1rem;
+  }
+
+  .profileInfo img {
+    max-height: 3.5rem;
+  }
+
+  .meta h3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 295px) {
+  .profile h1 {
+    font-size: 0.9rem;
+  }
+
+  .profileInfo img {
+    max-height: 3.2rem;
+  }
+
+  .meta h3 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 265px) {
+  .profile h1 {
+    font-size: 0.8rem;
+  }
+
+  .profileInfo img {
+    max-height: 3.1rem;
+  }
+
+  .meta h3 {
+    font-size: 0.7rem;
+  }
+}

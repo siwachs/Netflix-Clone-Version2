@@ -1,0 +1,83 @@
+.navbar {
+  height: 68px !important;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 10%,
+    rgba(0, 0, 0, 0)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+}
+
+.navbar-dark {
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+  position: fixed;
+  left: 4%;
+  max-height: 1.4rem;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.avatar {
+  position: fixed;
+  right: 4%;
+  max-height: 1.9rem;
+  border: none;
+  border-radius: 6px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  /*Landscape Tablets and small Laptops*/
+  /*768 Start and end on 992px*/
+}
+
+@media (max-width: 776px) {
+  /*600px to 768px Portrait Tablets and Large Phones*/
+}
+
+@media (max-width: 600px) {
+  /*0 to 600px Small Mobiles*/
+  .navbar {
+    height: 58px !important;
+  }
+
+  .logo {
+    max-height: 1.2rem;
+  }
+
+  .avatar {
+    max-height: 1.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    height: 50px !important;
+  }
+
+  .logo {
+    max-height: 1.2rem;
+  }
+
+  .avatar {
+    max-height: 1.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+}

@@ -1,0 +1,98 @@
+.content_row {
+  margin: 1rem 0;
+  margin-left: 4%;
+}
+
+.title {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.backdrop {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.backdrop::-webkit-scrollbar {
+  display: none;
+}
+
+.backdrop_img {
+  max-height: 10rem;
+  object-fit: contain;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: max-height 1s ease-out 100ms;
+}
+
+.backdrop_img:hover {
+  max-height: 13rem;
+  transition-delay: 0.3s;
+}
+
+.poster_img {
+  max-height: 13rem;
+  object-fit: contain;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: max-height 1s ease-out 100ms;
+}
+
+.poster_img:hover {
+  max-height: 15rem;
+  transition-delay: 0.3s;
+}
+
+@media (max-width: 992px) {
+  /*Landscape Tablets and small Laptops*/
+  /*768 Start and end on 992px*/
+}
+
+@media (max-width: 776px) {
+  /*600px to 768px Portrait Tablets and Large Phones*/
+}
+
+@media (max-width: 600px) {
+  /*0 to 600px Small Mobiles*/
+}
+
+@media (max-width: 500px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 300px) {
+  .poster_img {
+    max-height: 10rem;
+  }
+
+  .poster_img:hover {
+    max-height: 12rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .backdrop_img {
+    max-height: 8rem;
+  }
+
+  .backdrop_img:hover {
+    max-height: 9rem;
+  }
+}
+
+@media (max-width: 242px) {
+}
+
+@media (max-width: 210px) {
+}
